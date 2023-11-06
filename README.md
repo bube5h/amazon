@@ -3,7 +3,7 @@
 1. IAM Service
     * Responsible for authenticating user
     * Stores hashed user credentials
-    * Only other servicea with API Key are allowed to access any APIs in IAM Service
+    * Only other services with API Key are allowed to access any APIs in IAM Service
 2. User Service
     * Manages buyer and seller User Details(mobileNumber, emailId, address)
     * All APIs are authenticated
@@ -11,7 +11,7 @@
     * It manages product details like price, product name, sellerId, product description
 4. Order Management Service
     * It manages information like payment details, order status, order history
-    * It communicates with Inventory service via RabbitMQ queue
+    * It communicates with the Inventory service via RabbitMQ queue
 
 ### Steps to spin up these services in local(for Mac os)
 
@@ -66,3 +66,7 @@ Flow Overview for BUYERs
 
 ### Clustering
 1. IAM Service is running on kubernetes with 2 nodes
+
+### Architecture
+<img width="1037" alt="image" src="https://github.com/bube5h/amazon/assets/34552173/56a3b9e6-038c-41c9-a3e0-71f5a6b3fcd6">
+
