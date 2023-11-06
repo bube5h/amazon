@@ -13,6 +13,8 @@
     * It manages information like payment details, order status, order history
     * It communicates with the Inventory service via RabbitMQ queue
 
+**Postman Link:** https://www.postman.com/bubeshp/workspace/e-commerce/collection/6449336-4323a935-4063-4c90-9659-24471fb27d88?action=share&creator=6449336&active-environment=6449336-b9bc9f12-4adc-431e-a042-a222024853d4
+
 ### Steps to spin up these services in local(for Mac os)
 
 1. Install MySQL
